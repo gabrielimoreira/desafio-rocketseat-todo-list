@@ -5,7 +5,7 @@
   <img src="./src/assets/todo-list.gif" width="250px"/>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-Em%20desenvolvimento-red?style=flat-square">
+  <img src="https://img.shields.io/badge/STATUS-Em%20desenvolvimento-ff0b3c?style=flat-square">
 </p>
 
 ## 📌 Sobre o projeto
