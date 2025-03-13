@@ -17,12 +17,14 @@ O desafio consiste na construção de uma aplicação de controle de tarefas no 
 > Instruções do desafio: 🔗 <a href="https://efficient-sloth-d85.notion.site/Desafio-01-Praticando-os-conceitos-do-ReactJS-91fd63dd1a5b4a2796152de293ec1074" target="_blank">Notion</a> 
 
 
-### 🎨 Protótipo:
+### 🎨 Protótipo
 
 O protótipo do projeto pode ser acessado em: 🔗 <a href="https://www.figma.com/design/zKAGwyqMOA1y1XSCnIcGpa/ToDo-List-%E2%80%A2-Desafio-React?node-id=56-96&p=f&t=FvSWLSoDBSxI2y0U-0" target="_blank">Figma</a>
 
 
-### ⚡ Funcionalidades:
+### ⚡ Funcionalidades
+
+O projeto conta com diversas funcionalidades, como:
 
 - 📋 Listagem de Tarefas
 
