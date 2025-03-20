@@ -1,15 +1,15 @@
-# Descrição
+# 📝 Descrição
 
 Inclua uma breve descrição para as alterações feitas
 
-## Tipo de alteração
+## 🚀 Tipo de alteração
 
 - [ ] Bugfix
 - [ ] Feature
 - [ ] Task
 - [ ] Débito técnico
 
-## Checklist
+## ✅ Checklist
 
 - [ ] Testou em todos os browsers (Chrome, Firefox, Edge).
 - [ ] Testou em todos os devices (Desktop e mobile).
