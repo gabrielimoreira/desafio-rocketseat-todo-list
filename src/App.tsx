@@ -10,8 +10,13 @@ export function App() {
   return (
       <main>
         <Header/>
-        <Button />
-        <Input />
+
+        <section className={styles.taskContainer}>
+          <div className={styles.newTaskContainer}>
+            <Input />
+            <Button />
+          </div>
+        </section>
       </main>
   )
 }
