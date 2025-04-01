@@ -1,0 +1,35 @@
+.listHeader {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0 0.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.listHeader aside {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.listHeader aside span{
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 16px;
+  font-size: 0.75rem;
+}
+
+.listHeader aside p{
+  font-size: 0.875rem;
+}
+
+.listHeader aside:first-child {
+  color: var(--blue);
+}
+
+.listHeader aside:last-child {
+  color: var(--purple);
+}
