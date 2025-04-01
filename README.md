@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+<h1 align="center" style="width: 20px">Desafio ToDo List 🚀</h1>
+<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="./src/assets/todo-list.gif" width="250px"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-Em%20desenvolvimento-ff0b3c?style=flat-square">
+</p>
 
-Currently, two official plugins are available:
+## 📌 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desafio técnico do módulo de Fundamentos do ReactJS da trilha de ReactJS da Rocketseat, buscando reforçar os principais conceitos do React e suas principais ferramentas.
 
-## Expanding the ESLint configuration
+O desafio consiste na construção de uma aplicação de controle de tarefas no estilo to-do list.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> Instruções do desafio: 🔗 <a href="https://efficient-sloth-d85.notion.site/Desafio-01-Praticando-os-conceitos-do-ReactJS-91fd63dd1a5b4a2796152de293ec1074" target="_blank">Notion</a> 
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🎨 Protótipo
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+O protótipo do projeto pode ser acessado em: 🔗 <a href="https://www.figma.com/design/zKAGwyqMOA1y1XSCnIcGpa/ToDo-List-%E2%80%A2-Desafio-React?node-id=56-96&p=f&t=FvSWLSoDBSxI2y0U-0" target="_blank">Figma</a>
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+### ⚡ Funcionalidades
+
+O projeto conta com diversas funcionalidades, como:
+
+- 📋 Listagem de Tarefas
+
+- ➕ Adição de novas tarefas
+
+- ❌ Exclusão de tarefas da listagem
+
+- ✔ Marcar/Desmarcar tarefa como concluída
+
+- 📍 Mostrar progresso de conclusão das tarefas
+
+
+---
+<p align="center"><sub>Projeto sendo desenvolvido com ♡ por <strong>Gabrieli Moreira</strong> 👩🏼‍💻</sub></p>
